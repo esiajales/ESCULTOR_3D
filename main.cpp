@@ -27,6 +27,10 @@ int main(void){
   ufo.putBox(14, 23, 43, 45, 23, 25); // faz a terceira perna
   ufo.putBox(13, 14, 42, 46, 22, 26); // detalhe da terceira perna
   
+  ufo.setColor(0, 0, 0, 1.0); // seta a cor para preto
+  ufo.putBox(14, 23, 6, 8, 23, 25); // faz a quarta perna
+  ufo.putBox(13, 14, 5, 9, 22, 26); // detalhe da quarta perna
+  
   ufo.writeOFF((char*)"ufo.off");
   return 0;
 }
