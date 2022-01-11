@@ -254,7 +254,7 @@ void Sculptor::writeOFF(char *filename){
   }
 
   vx = 0; // reiniciando a contagem
-  fout << setiosflags(ios::fixed);
+  fout << setiosflags(ios::fixed); // fixando os valores das cores
 
   for(i=0;i<x;i++){
     for(j=0;j<y;j++){
